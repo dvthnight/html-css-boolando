@@ -1,0 +1,87 @@
+
+.contenitore{
+    margin: 0 auto;
+    width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    position: relative;
+    padding:20px;
+    width: 440px;
+    display: inline-block;
+}
+
+img{
+    width: 440px;
+}
+
+.img1{
+    position: absolute;
+    z-index: 3;
+}
+
+.img2{
+    z-index: 1;
+}
+
+.quadratino{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    z-index: 4;
+    line-height: 30px;
+    text-align: center;
+}
+
+.quadratino span{
+    vertical-align: middle;
+}
+
+
+.img1:hover{
+    visibility: hidden;
+}
+
+.testo{
+    margin-top: 10px;
+}
+
+.prezzo1{
+    color:red;
+}
+
+.prezzo2{
+    text-decoration: line-through;
+}
+
+h4,p{
+    margin: 0;
+}
+
+.offerta{
+    
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    z-index: 5;
+    
+}
+
+.percentuale{
+    background-color: red;
+    display: inline-block;
+    padding: 5px;
+   
+    
+}
+
+.sostenibile{
+    background-color: green;
+    display: inline-block;
+    padding: 5px;
+}
